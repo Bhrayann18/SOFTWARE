@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title>EDITAR CERTIFICADOS</title>
+    <link rel="stylesheet" href="Upload_style.css">
+    <link rel="stylesheet" href="Upload_style_User.css">
+    <link rel="shortcut icon" href="red-de-computadoras.png" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="css/Upload_material.min.css">
+    <link rel="stylesheet" href="css/Upload_material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="css/Upload_main.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+   <main>
+<body>
+  <div class="sidebar">
+    <div class="logo-details">
+      <img id="destacada" src="red-de-computadoras.png" />
+      <span class="logo_name">CORTESOFT</span>
+    </div>
+      <ul class="nav-links">
+        <li>
+          <a href="#">
+            <i class='bx bxs-file-doc' ></i>
+            <span class="links_name">CERTIFICADOS</span>
+          </a>
+        </li>
+        <li>
+          <a href="INICIO.html">
+            <i class='bx bxs-left-arrow-square'></i>
+            <span class="links_name">ATRAS</span>
+          </a>
+        </li>
+        <li>
+          <a href="PAGINA DE VENTAS.html">
+            <i class='bx bxl-google'></i>
+            <span class="links_name">PAGINA WEB</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-message-dots'></i>
+            <span class="links_name">MENSAJES</span>
+          </a>
+        </li>
+      </ul>
+  </div>
+  <section class="home-section">
+    <nav>
+      <div class="search-box">
+        <input type="text" placeholder="BUSCAR...">
+        <i class='bx bx-search' ></i>
+      </div>
+      <div class="profile-dropdown">
+        <div onclick="toggle()" class="profile-dropdown-btn">
+          <img src="images/admin.jpg" class="navbar-logo" alt="logo" />
+          <div class="profile-img">
+            <i class="fa-solid fa-circle"></i>
+          </div>
+
+          <span>
+            URIEL
+            <i class='bx bxs-down-arrow'></i>
+          </span>
+        </div>
+
+        <ul class="profile-dropdown-list">
+          <li class="profile-dropdown-list-item">
+            <a href="#">
+              <i class='bx bx-reset' ></i>
+              EDITAR PERFIL
+            </a>
+          </li>
+
+          <li class="profile-dropdown-list-item">
+            <a href="MI CUENTA.html">
+              <i class='bx bx-user' ></i>
+              MI CUENTA
+            </a>
+          </li>
+
+          <li class="profile-dropdown-list-item">
+            <a href="CERTIFICADO.html">
+              <i class='bx bxs-file-doc' ></i>
+              CERTIFICADO
+            </a>
+          </li>
+
+          <li class="profile-dropdown-list-item">
+            <a href="#">
+              <i class='bx bx-reset' ></i>
+              CONFIGURACION
+            </a>
+          </li>
+
+          <li class="profile-dropdown-list-item">
+            <a href="#">
+              <i class='bx bx-help-circle' ></i>
+              AYUDA
+            </a>
+          </li>
+          <hr />
+
+          <li class="profile-dropdown-list-item">
+            <a href="#">
+              <i class='bx bx-log-out' ></i>
+              CERRAR SESION
+            </a>
+          </li>
+        </ul>
+      </div>
+  
+    </nav>
+
+    <div class="home-content">
+      <div class="overview-boxes">
+        <div class="box">
+          <div class="right-side">
+            <div class="box-topic">GASTO MATERIAL</div>
+            <div class="number">400.000</div>
+            <div class="indicator">
+              <i class='bx bx-up-arrow-alt'></i>
+              <span class="text">DATOS DE HOY</span>
+            </div>
+          </div>
+          <i class='bx bx-cart-alt cart'></i>
+        </div>
+        <div class="box">
+          <div class="right-side">
+            <div class="box-topic">TOTAL COMPRAS</div>
+            <div class="number">10</div>
+            <div class="indicator">
+              <i class='bx bx-up-arrow-alt'></i>
+              <span class="text">DATOS DE HOY</span>
+            </div>
+          </div>
+          <i class='bx bxs-cart-add cart two' ></i>
+        </div>
+        <div class="box">
+          <div class="right-side">
+            <div class="box-topic">Total ENTRADAS</div>
+            <div class="number">$600.000</div>
+            <div class="indicator">
+              <i class='bx bx-up-arrow-alt'></i>
+              <span class="text">DATOS DE HOY</span>
+            </div>
+          </div>
+          <i class='bx bx-cart cart three' ></i>
+        </div>
+        <div class="box">
+          <div class="right-side">
+            <div class="box-topic">TOTAL PERDIDAS</div>
+            <div class="number">200.000</div>
+            <div class="indicator">
+              <i class='bx bx-down-arrow-alt down'></i>
+              <span class="text">DATOS DE HOY</span>
+            </div>
+          </div>
+          <i class='bx bxs-cart-download cart four' ></i>
+        </div>
+        
+      </div>
+      <div class="mdl-tabs__panel" id="tabListProducts">
+				<div class="mdl-grid">
+					<div class="mdl-cell mdl-cell--4-col-phone mdl-cell--8-col-tablet mdl-cell--12-col-desktop">
+						<form action="#">
+							<div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
+								</label>
+								<div class="mdl-textfield__expandable-holder">
+									<input class="mdl-textfield__input" type="text" id="searchProduct">
+									<label class="mdl-textfield__label"></label>
+								</div>
+							</div>
+						</form>
+						<div class="full-width text-center" style="padding: 30px 0;">
+							<div class="mdl-card mdl-shadow--2dp full-width product-card">
+								<div class="mdl-card__title">
+									<img src="images/CERTIFICADO EMCALI GLOBAL MEDIA.png" alt="product" class="img-responsive">
+								</div>
+								<div class="mdl-card__supporting-text">
+									<small>CC</small><br>
+									<small>TRABAJADOR</small>
+								</div>
+								<div class="mdl-card__actions mdl-card--border">
+									CERTIFICADO OPERADOR
+									<button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+										<i class='bx bx-cloud-upload'></i>
+									</button>
+								</div>
+							</div>
+							<div class="mdl-card mdl-shadow--2dp full-width product-card">
+								<div class="mdl-card__title">
+									<img src="images/CERTIFICADO EMCALI GLOBAL MEDIA.png" alt="product" class="img-responsive">
+								</div>
+								<div class="mdl-card__supporting-text">
+									<small>CC</small><br>
+									<small>TRABAJADOR</small>
+								</div>
+								<div class="mdl-card__actions mdl-card--border">
+									CERTIFICADO VENDEDOR
+									<button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+										<i class='bx bx-cloud-upload'></i>
+									</button>
+								</div>
+							</div>
+							<div class="mdl-card mdl-shadow--2dp full-width product-card">
+								<div class="mdl-card__title">
+									<img src="images/CERTIFICADO EMCALI GLOBAL MEDIA.png" alt="product" class="img-responsive">
+								</div>
+								<div class="mdl-card__supporting-text">
+									<small>CC</small><br>
+									<small>TRABAJADOR</small>
+								</div>
+								<div class="mdl-card__actions mdl-card--border">
+									CERTIFICADO
+									<button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+										<i class='bx bx-cloud-upload'></i>
+									</button>
+								</div>
+							</div>
+
+    </div>
+    
+  </section>
+  <script src="Nav_scriptUser.js"></script>
+</main>
+</body>
+</html>

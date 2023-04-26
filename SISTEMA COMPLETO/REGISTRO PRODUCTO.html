@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title>REGISTRAR PRODUCTO</title>
+    <link rel="stylesheet" href="Registro_style.css">
+    <link rel="stylesheet" href="Registro_style_User.css">
+    <link rel="shortcut icon" href="red-de-computadoras.png" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+   <main>
+<body>
+  <div class="sidebar">
+    <div class="logo-details">
+      <img id="destacada" src="red-de-computadoras.png" />
+      <span class="logo_name">CORTESOFT</span>
+    </div>
+      <ul class="nav-links">
+        <li>
+          <a href="#">
+            <i class='bx bxl-product-hunt'></i>
+            <span class="links_name">REGISTRO</span>
+          </a>
+        </li>
+        <li>
+          <a href="INICIO.html">
+            <i class='bx bxs-left-arrow-square'></i>
+            <span class="links_name">ATRAS</span>
+          </a>
+        </li>
+        <li>
+          <a href="PAGINA DE VENTAS.html">
+            <i class='bx bxl-google'></i>
+            <span class="links_name">PAGINA WEB</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-message-dots'></i>
+            <span class="links_name">MENSAJES</span>
+          </a>
+        </li>
+        <li>
+      </ul>
+  </div>
+  <section class="home-section">
+    <nav>
+      <div class="search-box">
+        <input type="text" placeholder="BUSCAR...">
+        <i class='bx bx-search' ></i>
+      </div>
+      <div class="profile-dropdown">
+        <div onclick="toggle()" class="profile-dropdown-btn">
+          <img src="images/admin.jpg" class="navbar-logo" alt="logo" />
+          <div class="profile-img">
+            <i class="fa-solid fa-circle"></i>
+          </div>
+
+          <span>
+            URIEL
+            <i class='bx bxs-down-arrow'></i>
+          </span>
+        </div>
+
+        <ul class="profile-dropdown-list">
+          <li class="profile-dropdown-list-item">
+            <a href="#">
+              <i class='bx bx-reset' ></i>
+              EDITAR PERFIL
+            </a>
+          </li>
+
+          <li class="profile-dropdown-list-item">
+            <a href="MI CUENTA.html">
+              <i class='bx bx-user' ></i>
+              MI CUENTA
+            </a>
+          </li>
+
+          <li class="profile-dropdown-list-item">
+            <a href="CERTIFICADO.html">
+              <i class='bx bxs-file-doc' ></i>
+              CERTIFICADO
+            </a>
+          </li>
+
+          <li class="profile-dropdown-list-item">
+            <a href="#">
+              <i class='bx bx-reset' ></i>
+              CONFIGURACION
+            </a>
+          </li>
+
+          <li class="profile-dropdown-list-item">
+            <a href="#">
+              <i class='bx bx-help-circle' ></i>
+              AYUDA
+            </a>
+          </li>
+          <hr />
+
+          <li class="profile-dropdown-list-item">
+            <a href="#">
+              <i class='bx bx-log-out' ></i>
+              CERRAR SESION
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+        
+      </div>
+      <form action="php/regcap.php" method= "post" class = "form-registro">
+        <h2> REGISTRAR PRODUCTO</h2>
+        <div class ="contenedor-input">
+            <input type = "text" name = "nombre" placeholder = "ID PRODUCTO" class = "input-48" required>
+            <input type = "text" name = "apellido" placeholder = "NAME PRODUCTO" class = "input-48" required>
+            <input type = "text" name = "user" placeholder = "TIPO" class = "input-48" required>
+            <img src="images/camison.png" alt="" class="camison">
+        </div>      
+        <input type = "submit" value = "REGISTRAR PRODUCTO" class = "btn-enviar">
+    </form>
+    
+    </div>
+    
+  </section>
+  <script src="Nav_scriptUser.js"></script>
+</main>
+</body>
+</html>

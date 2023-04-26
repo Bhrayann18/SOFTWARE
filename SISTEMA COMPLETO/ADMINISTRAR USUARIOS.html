@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title>ADMINISTRAR USUARIOS</title>
+    <link rel="stylesheet" href="Users_style.css">
+    <link rel="stylesheet" href="Users_style_User.css">
+    <link rel="shortcut icon" href="red-de-computadoras.png" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="css/Users_material.min.css">
+    <link rel="stylesheet" href="css/Users_material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="css/Users_main.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+   <main>
+<body>
+  <div class="sidebar">
+    <div class="logo-details">
+      <img id="destacada" src="red-de-computadoras.png" />
+      <span class="logo_name">CORTESOFT</span>
+    </div>
+      <ul class="nav-links">
+        <li>
+          <a href="#">
+            <i class='bx bx-user-plus'></i>
+            <span class="links_name">ADMINISTRAR USUARIOS</span>
+          </a>
+        </li>
+        <li>
+          <a href="INICIO.html">
+            <i class='bx bxs-left-arrow-square'></i>
+            <span class="links_name">ATRAS</span>
+          </a>
+        </li>
+        <li>
+          <a href="PAGINA DE VENTAS.html">
+            <i class='bx bxl-google' ></i>
+            <span class="links_name">PAGINA WEB</span>
+          </a>
+        </li>
+        <li>
+           <a href="#">
+            <i class='bx bx-message-dots'></i>
+            <span class="links_name">MENSAJES</span>
+          </a>
+        </li>
+        <li>
+      </ul>
+  </div>
+  <section class="home-section">
+    <nav>
+      <div class="search-box">
+        <input type="text" placeholder="BUSCAR...">
+        <i class='bx bx-search' ></i>
+      </div>
+      <div class="profile-dropdown">
+        <div onclick="toggle()" class="profile-dropdown-btn">
+          <img src="images/admin.jpg" class="navbar-logo" alt="logo" />
+          <div class="profile-img">
+            <i class="fa-solid fa-circle"></i>
+          </div>
+
+          <span>
+            URIEL
+            <i class='bx bxs-down-arrow'></i>
+          </span>
+        </div>
+
+        <ul class="profile-dropdown-list">
+          <li class="profile-dropdown-list-item">
+            <a href="#">
+              <i class='bx bx-reset' ></i>
+              EDITAR PERFIL
+            </a>
+          </li>
+
+          <li class="profile-dropdown-list-item">
+            <a href="MI CUENTA.html">
+              <i class='bx bx-user' ></i>
+              MI CUENTA
+            </a>
+          </li>
+
+          <li class="profile-dropdown-list-item">
+            <a href="CERTIFICADO.html">
+              <i class='bx bxs-file-doc' ></i>
+              CERTIFICADO
+            </a>
+          </li>
+
+          <li class="profile-dropdown-list-item">
+            <a href="#">
+              <i class='bx bx-reset' ></i>
+              CONFIGURACION
+            </a>
+          </li>
+
+          <li class="profile-dropdown-list-item">
+            <a href="#">
+              <i class='bx bx-help-circle' ></i>
+              AYUDA
+            </a>
+          </li>
+          <hr />
+
+          <li class="profile-dropdown-list-item">
+            <a href="#">
+              <i class='bx bx-log-out' ></i>
+              CERRAR SESION
+            </a>
+          </li>
+        </ul>
+      </div>
+  
+    </nav>        
+      </div>
+      	<div class="mdl-tabs__panel" id="tabListAdmin">
+				<div class="mdl-grid">
+					<div class="mdl-cell mdl-cell--4-col-phone mdl-cell--8-col-tablet mdl-cell--8-col-desktop mdl-cell--2-offset-desktop">
+						<div class="full-width panel mdl-shadow--2dp">
+
+							<div class="full-width panel-content">
+                
+								<div class="mdl-list">
+									<div class="mdl-list__item mdl-list__item--two-line">
+										<span class="mdl-list__item-primary-content">
+											<i class='bx bxs-user-rectangle mdl-list__item-avatar'></i>
+											<span>ADMINISTRADOR</span>
+											<span class="mdl-list__item-sub-title">URIEL CORTES PAREJA</span>
+										</span>
+										<a class="mdl-list__item-secondary-action" href="#!"><i class='bx bxs-cog' ></i></a>
+									</div>
+									<li class="full-width divider-menu-h"></li>
+									<div class="mdl-list__item mdl-list__item--two-line">
+										<span class="mdl-list__item-primary-content">
+											<i class="bx bxs-user-pin mdl-list__item-avatar"></i>
+											<span>OPERARIO</span>
+											<span class="mdl-list__item-sub-title">JUAN DAVID SANCHEZ</span>
+										</span>
+										<a class="mdl-list__item-secondary-action" href="#!"><i class='bx bxs-cog' ></i></a>
+									</div>
+									<li class="full-width divider-menu-h"></li>
+									<div class="mdl-list__item mdl-list__item--two-line">
+										<span class="mdl-list__item-primary-content">
+											<i class="bx bxs-user-pin mdl-list__item-avatar"></i>
+											<span>OPERARIO</span>
+											<span class="mdl-list__item-sub-title">JAVIER ENRIQUE GOMEZ</span>
+										</span>
+										<a class="mdl-list__item-secondary-action" href="#!"><i class='bx bxs-cog' ></i></a>
+									</div>
+									<li class="full-width divider-menu-h"></li>
+									<div class="mdl-list__item mdl-list__item--two-line">
+										<span class="mdl-list__item-primary-content">
+											<i class="bx bxs-user-pin mdl-list__item-avatar"></i>
+											<span>OPERARIO</span>
+											<span class="mdl-list__item-sub-title">MARTHA ROCIO MARTINEZ</span>
+										</span>
+										<a class="mdl-list__item-secondary-action" href="#!"><i class='bx bxs-cog' ></i></a>
+									</div>
+									<li class="full-width divider-menu-h"></li>
+									<div class="mdl-list__item mdl-list__item--two-line">
+										<span class="mdl-list__item-primary-content">
+											<i class="bx bxs-user-pin mdl-list__item-avatar"></i>
+											<span>VENDEDORA</span>
+											<span class="mdl-list__item-sub-title">DANA PAOLA SANCHEZ</span>
+										</span>
+										<a class="mdl-list__item-secondary-action" href="#!"><i class='bx bxs-cog' ></i></a>
+									</div>
+    </div>
+    
+  </section>
+  <script src="Nav_scriptUser.js"></script>
+</main>
+</body>
+</html>

@@ -1,0 +1,141 @@
+
+header{
+    padding: 0 0 2rem 0;
+    border-bottom: 3pt solid #009688;
+}
+
+.logo{
+    width: 140px;
+    height: 110px;
+    float: left;
+    margin-top: 0%;
+}
+.FACTURA{
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        margin: 6rem auto 0;
+        Width: 800px;
+        height: 820px;
+        background: white;
+        border: 1px solid #aaa;
+        padding: 2rem;
+        margin-top: 100px;
+}
+
+.UBICACION{
+    vertical-align: top;
+    display: inline-block;
+    font-size: 1rem;
+    padding: 0 1rem;
+    min-height: 1px;
+}
+
+.informacion{
+
+    vertical-align: top;
+    display: inline-block;
+    font-size: 1rem;
+    padding: 0 1rem;
+    min-height: 1px;
+
+}
+.banco{
+    vertical-align: top;
+    display: inline-block;
+    font-size: 1rem;
+    padding: 0 1rem;
+    min-height: 1px;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 2rem;
+    color: #009688;
+}
+
+
+.uno{
+    width: 21%;
+    float: right;
+    margin-top: -20px;
+
+}
+.dos{
+    width: 30%;
+    float: left;
+    margin-top: 30px;
+    
+}
+
+.tres{
+    width: 30%;
+    float: left;
+    margin-top: 30px;
+    margin-left: 15%;
+}
+
+.invoicelist-head table{
+    width: 100%;
+    border: #009688 1px solid;
+    text-align: center;
+    margin-top: 25%;
+}
+
+.invoicelist-head th{
+    border-bottom: #009688 1px solid;
+}
+
+
+.invoicelist-body table{
+    margin-top: 5%;
+    text-align: center;
+
+}
+
+.invoicelist-body th{
+    border-bottom: #009688 1px solid;
+}
+
+
+.invoicelist-footer table{
+    margin-top: 5%;
+    width: 20%;
+    float: right;
+}
+
+.invoicelist-footer table #total_price {
+    font-size: 2rem;
+    color: #009688;
+}
+.invoicelist-footer table td {
+    padding: 1rem 2rem 0 1rem;
+    padding-top: 1rem;
+    padding-right: 2rem;
+    padding-bottom: 0px;
+    padding-left: 1rem;
+    text-align: right;
+}
+
+
+.note h2 {
+    margin-top: 20%;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.IMPRIMIR{
+    border-color: #aaaaaa;
+    border-width: 1px;
+    border-style: solid;
+    width: 70px;
+    background: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    float: right;
+    margin-right: -20%;
+    margin-top: 20%;
+
+}
+a {
+    color: #009688;
+    text-decoration: none;
+}

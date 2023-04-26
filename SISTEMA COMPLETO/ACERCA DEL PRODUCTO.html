@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CORTESHOP</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/Single_bootstrap.css">
+    <link rel="stylesheet" href="css/footer_estilos.css">
+    <link rel="stylesheet" href="css/Single_font-awesome.min.css">
+    <link rel="stylesheet" href="Single_style.css">
+    <link rel="stylesheet" href="carrito_estilo.css">
+
+</head>
+<body>
+<header>
+    <section class="header-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <ul>
+                        <li><a href="#">MI CUENTA</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <div class="icon">
+                       <a href="#"><i class="fa fa-facebook"></i></a>
+                       <a href="#"><i class="fa fa-twitter"></i></a>
+                       <a href="#"><i class="fa fa-google-plus"></i></a>
+                       <a href="#"><i class="fa fa-linkedin"></i></a>
+                       <a href="#"><i class="fa fa-wifi"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                   <div class="a-right">
+                        <a href="#"><p><span><i class="fa fa-user"></i></span>INICIAR SESION</p></a>
+                        <a href="#"><p><span><i class="fa fa-pencil"></i></span>REGISTRARSE</p></a>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="clear"></div>
+    <section class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                   <div class="logo">
+                    <img id="destacada" src="Logo.png" />
+                   </div>
+                </div>
+                <div class="col-md-7">
+                    <ul class="nav navbar-nav">
+                      <li class="active"><a href="#">HOME</a></li>
+                      <li><a href="#">CHAQUETAS</a></li>
+                      <li><a href="#">JEANS</a></li>
+                      <li><a href="#">CAMISAS</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <div class="cart">
+                        <p><i class="fa fa-cart-arrow-down"></i><sup>0</sup> &#36;&nbsp;&nbsp;0.00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                   <div class="header-part">
+                    <p>INICIO &nbsp;&nbsp;&nbsp;T-M &nbsp;&nbsp;&nbsp;<span><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;HOMBRET-CHAQUETA</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</header>
+<section class="contenedor">
+    <div class="contenedor-items">
+    <div class="item">
+        <span class="titulo-item">CHAQUETA COLUMBIA</span>
+        <img src="img/s-display2.jpg" alt="" class="img-item">
+        <div class="small-slider">
+            <img src="img/s-cloth.jpg" alt="">
+            <img src="img/s-cloth.jpg" alt="">
+            <img src="img/s-cloth.jpg" alt="">
+        </div>
+        <span class="precio-item">$200.000 COP</span>
+        <p><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><span><i class="fa fa-star" aria-hidden="true"></i></span></p>
+        <h6>(30 VISTAS)</h6>
+        <select name="TALLA" id="TALLA" class="custom-select">
+            <option value="" selected>Seleccione Talla …</option>
+            <option value="size">M</option>
+            <option value="size">S</option>
+            <option value="size">XL</option>
+            <option value="size">L</option>
+            <option value="size">XS</option>
+            <option value="size">XXL</option>
+          </select>
+    <button class="pagar-item">Pagar <i class="fa-solid fa-bag-shopping"></i> </button>
+    <button class="boton-item">Agregar al Carrito</button>
+    </div>
+</div>
+<div class="carrito" id="carrito">
+    <div class="header-carrito">
+   <img src="https://seeklogo.com/images/V/VISA-logo-62D5B26FE1-seeklogo.com.png" class="logo-card">
+        <h2>CARRO</h2>
+    </div>
+
+    <div class="carrito-items">
+        <!-- 
+        <div class="carrito-item">
+            <img src="img/boxengasse.png" width="80px" alt="">
+            <div class="carrito-item-detalles">
+                <span class="carrito-item-titulo">Box Engasse</span>
+                <div class="selector-cantidad">
+                    <i class="fa-solid fa-minus restar-cantidad"></i>
+                    <input type="text" value="1" class="carrito-item-cantidad" disabled>
+                    <i class="fa-solid fa-plus sumar-cantidad"></i>
+                </div>
+                <span class="carrito-item-precio">$15.000,00</span>
+            </div>
+           <span class="btn-eliminar">
+                <i class="fa-solid fa-trash"></i>
+           </span>
+        </div>
+        <div class="carrito-item">
+            <img src="img/skinglam.png" width="80px" alt="">
+            <div class="carrito-item-detalles">
+                <span class="carrito-item-titulo">Skin Glam</span>
+                <div class="selector-cantidad">
+                    <i class="fa-solid fa-minus restar-cantidad"></i>
+                    <input type="text" value="3" class="carrito-item-cantidad" disabled>
+                    <i class="fa-solid fa-plus sumar-cantidad"></i>
+                </div>
+                <span class="carrito-item-precio">$18.000,00</span>
+            </div>
+           <button class="btn-eliminar">
+                <i class="fa-solid fa-trash"></i>
+           </button>
+        </div>
+         -->
+    </div>
+    <div class="carrito-total">
+        <div class="fila">
+            <strong>Tu Total</strong>
+            <span class="carrito-precio-total">
+                $
+            </span>
+        </div>
+        <button class="btn-pagar">Pagar <i class="fa-solid fa-bag-shopping"></i> </button>
+
+        <h3><i class='bx bxs-shield-plus'></i>Recibe el producto.</h3>
+        <h3><i class='bx bxs-certification' ></i> meses de garantía de fábrica.</h3>
+        <h3><i class='bx bxs-car' ></i>Envío gratis a nivel nacional.</h3>
+        <h3><i class='bx bxs-credit-card-alt' ></i>Puedes pagar con tarjeta debito.</h3>
+    </div>
+</div>
+</section>
+<section class="stylish-product">
+    <div class="product_description">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2><span class="description">DESCRIPCION</span><span class="review">COMENTARIOS(0)</span></h2>
+                    <p>----------------</p>
+                    <p>----------------</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="related-products">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="bar">
+                        <h2>PRODUCTOS RELACIONADOS</h2>
+                        <img src="img/bar.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="product">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="s_product">
+                            <img src="img/t-shart.jpg" alt="">
+                            <div class="s_overlay"></div>
+                            <h2>PROMOCION!</h2>
+                            <h3>T-M</h3>
+                            <h4><i class="fa fa-cart-arrow-down" aria-hidden="true"></i>ADD TO CART</h4>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="rate">
+                                    <h3>CHAQUETA AZUL MUJER</h3>
+                                    <p><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><span><i class="fa fa-star" aria-hidden="true"></i></span></p>
+                                    <h5>$250.000</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="s_product">
+                            <img src="img/t-shart1.jpg" alt="">
+                            <div class="s_overlay"></div>
+                            <h3>T-S</h3>
+                            <h4><i class="fa fa-cart-arrow-down" aria-hidden="true"></i>ADD TO CART</h4>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="rate">
+                                    <h3>CHAQUETA NIÑO NARANJA</h3>
+                                    <p><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><span><i class="fa fa-star" aria-hidden="true"></i></span></p>
+                                    <h5>$120.000</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="s_product">
+                            <img src="img/t-shart2.jpg" alt="">
+                            <div class="s_overlay"></div>
+                            <h3>T-S</h3>
+                            <h4><i class="fa fa-cart-arrow-down" aria-hidden="true"></i>ADD TO CART</h4>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="rate">
+                                    <h3>CHAQUETA HOMBRE GRIS</h3>
+                                    <p><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></p>
+                                    <h5>$250.000</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="s_product">
+                            <img src="img/t-shart3.jpg" alt="">
+                            <div class="s_overlay"></div>
+                            <h2>NUEVO!</h2>
+                            <h3>JACKET</h3>
+                            <h4><i class="fa fa-cart-arrow-down" aria-hidden="true"></i>ADD TO CART</h4>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="rate">
+                                    <h3>CAMISA NEGRA MANGA LARGA</h3>
+                                    <p><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></p>
+                                    <h5>$150.00</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="pie-pagina">
+    <div class="grupo-1">
+        <div class="box">
+            <figure>
+                <a href="#">
+                    <img src="Logo.png"Logo de SLee Dw">
+                </a>
+            </figure>
+        </div>
+        <div class="box">
+            <h2>SOBRE NOSOTROS</h2>
+            <p>Costurera Cortes 15 años vendiendo productos de moda.</p>
+            <p>CorteSoft especialista en el desarrollo de sistemas de informacion.</p>
+        </div>
+        <div class="box">
+            <h2>SIGUENOS</h2>
+            <div class="red-social">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-youtube"></a>
+            </div>
+        </div>
+    </div>
+    <div class="grupo-2">
+        <small>&copy; 2023 <b>CorteSoft</b> - Todos los Derechos Reservados.</small>
+    </div>
+</footer>
+
+
+<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>  
+<script src="js/bootstrap.min.js"></script>  
+<script src="js/active.js"></script>  
+<script src="app.js"></script>  
+</body>
+</html>

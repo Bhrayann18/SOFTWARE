@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title>FACTURA</title>
+    <link rel="stylesheet" href="Factura_style.css">
+    <link rel="stylesheet" href="Factura_style_User.css">
+    <link rel="stylesheet" href="Factura_main_fac.css">
+    <link rel="shortcut icon" href="red-de-computadoras.png" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+   <main>
+<body>
+  <div class="sidebar">
+    <div class="logo-details">
+      <img id="destacada" src="red-de-computadoras.png" />
+      <span class="logo_name">CORTESOFT</span>
+    </div>
+      <ul class="nav-links">
+        <li>
+          <a href="#">
+            <i class='bx bxs-file-doc'></i>
+            <span class="links_name">FACTURACION</span>
+          </a>
+        </li>
+        <li>
+          <a href="INICIO.html">
+            <i class='bx bx-chevron-left-square' ></i>
+            <span class="links_name">ATRAS</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-message' ></i>
+            <span class="links_name">MENSAJES</span>
+          </a>
+        </li>
+        <li>
+          <a href="PAGINA DE VENTAS.html">
+            <i class='bx bxl-google'></i>
+            <span class="links_name">PAGINA WEB</span>
+          </a>
+        </li>
+      </ul>
+  </div>
+  <section class="home-section">
+    <nav  class="navbar">
+      
+      <div class="search-box">
+        <input type="text" placeholder="BUSCAR...">
+        <i class='bx bx-search' ></i>
+      </div>
+        <div class="profile-dropdown">
+          <div onclick="toggle()" class="profile-dropdown-btn">
+            <img src="images/admin.jpg" class="navbar-logo" alt="logo" />
+            <div class="profile-img">
+              <i class="fa-solid fa-circle"></i>
+            </div>
+  
+            <span>
+              URIEL
+              <i class='bx bxs-down-arrow'></i>
+            </span>
+          </div>
+  
+          <ul class="profile-dropdown-list">
+            <li class="profile-dropdown-list-item">
+              <a href="#">
+                <i class='bx bx-reset' ></i>
+                EDITAR PERFIL
+              </a>
+            </li>
+  
+            <li class="profile-dropdown-list-item">
+              <a href="MI CUENTA.html">
+                <i class='bx bx-user' ></i>
+                MI CUENTA
+              </a>
+            </li>
+  
+            <li class="profile-dropdown-list-item">
+              <a href="CERTIFICADO.html">
+                <i class='bx bxs-file-doc' ></i>
+                CERTIFICADO
+              </a>
+            </li>
+  
+            <li class="profile-dropdown-list-item">
+              <a href="#">
+                <i class='bx bx-reset' ></i>
+                CONFIGURACION
+              </a>
+            </li>
+  
+            <li class="profile-dropdown-list-item">
+              <a href="#">
+                <i class='bx bx-help-circle' ></i>
+                AYUDA
+              </a>
+            </li>
+            <hr />
+  
+            <li class="profile-dropdown-list-item">
+              <a href="#">
+                <i class='bx bx-log-out' ></i>
+                CERRAR SESION
+              </a>
+            </li>
+          </ul>
+        </div>
+        
+       
+      </div>
+    </nav>
+        </div>
+        <div class="FACTURA">
+          <header class="row_1">
+          <div class="UBICACION">
+              <p contenteditable>
+                <strong>CORTESHOP</strong><br>
+                KR 14Q #74 D SUR<br>
+                BOGOTA COLOMBIA<br>
+                
+              </p>
+            </div>
+            <div class="logo">
+              <img src="Logo.png" alt="" class="logo">
+            </div>
+            <div class="informacion">
+              <p contenteditable>
+                Web: <a href="http://volkerotto.net">www.sistemasCortes.co</a><br>
+                E-mail: <a href="mailto:info@obedalvarado.pw">infoCortes@gmail.com</a><br>
+                Tel: +57-3146464533<br>
+                Twitter: @Cortes_18
+              </p>
+            </div>
+            <div class="banco">
+              <p contenteditable>
+                Datos bacarios: <br>
+                Titular de la cuenta: <br>
+                IBAN: <br>
+                BIC:
+              </p>
+      </div>
+  </header>
+   
+  <div class="row section">
+      <h1 contenteditable>Factura</h1>
+  
+    <div class="col-2">
+          <p contenteditable class="uno"><br>
+              Fecha: [15-03-23]<br>
+              Factura#: [1000]<br>
+              Vence:  [29-03-23]<br>
+            </p>
+    </div><!--.col-->
+    
+    
+    
+    <div class="col-2">
+      <p contenteditable class="dos">
+        <strong>Facturar a</strong><br>
+        [Nombre cliente]<br>
+        [Nombre emmpresa]<br>
+      [Dirección empresa]<br>
+      [Tel empresa]
+      </p>
+    </div><!--.col-->
+    
+    
+    <div class="col-2">
+      <p contenteditable class="tres">
+        <strong>Enviar a</strong><br>
+        [Nombre cliente]<br>
+        [Nombre emmpresa]<br>
+      [Dirección empresa]<br>
+      [Tel empresa]
+      </p>
+    </div><!--.col-->
+    
+    <div class="row section" style="margin-top:-1rem">
+      <div class="invoicelist-head">
+        <table>
+          <thead contenteditable>
+        <tr class="invoice_detail">
+            <th width="25%">Vendedor</th>
+             <th width="25%">Orden de compra </th>
+            <th width="20%">Enviar por</th>
+            <th width="30%">Términos y condiciones</th>
+         </tr> 
+          </thead>
+          <tbody contenteditable>
+        <tr class="invoice_detail">
+            <td width="25%">Maria Gomez</td>
+             <td width="25%">#PO-2023 </td>
+            <td width="20%">DHL</td>
+            <td width="30%">Pago al contado</td>
+         </tr>
+        </tbody>
+        </table>
+      </div>
+  </div>
+  
+  <div class="invoicelist-body">
+    <table>
+      <thead contenteditable>
+        <th width="5%">Código</th>
+        <th width="60%">Descripción</th>
+        
+        <th width="10%">Cant.</th>
+        <th width="15%">Precio</th>
+        <th class="taxrelated">IVA</th>
+        <th width="10%">Total</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td width='5%'> <span contenteditable>12345</span></td>
+          <td width='60%'><span contenteditable>Descripción</span></td>
+          <td class="amount"><span contenteditable>Descripción</span></td>
+          <td class="rate"><span contenteditable>Descripción</span></td>
+          <td class="tax taxrelated"></td>
+          <td class="sum"></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  
+  <div class="invoicelist-footer">
+    <table contenteditable>
+      <tr class="taxrelated">
+        <td>IVA:</td>
+        <td id="total_tax"></td>
+      </tr>
+      <tr>
+        <td><strong>Total:</strong></td>
+        <td id="total_price"></td>
+      </tr>
+    </table>
+  </div>
+  
+  <div class="IMPRIMIR">
+    <a href="javascript:window.print()">Imprimir</a>
+  </div>
+  
+  <div class="note" contenteditable>
+    <h2>Nota:</h2>
+  </div>
+  
+  
+  </div>
+      </div>
+    </div>
+  </section>
+  <script src="Nav_scriptUser.js"></script>
+</main>
+</body>
+</html>
